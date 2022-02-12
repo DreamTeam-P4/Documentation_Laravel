@@ -29,3 +29,48 @@ php artisan make:migration tableSimplonP4
 ```
 <img src="https://github.com/DreamTeam-P4/Documentation_Laravel/blob/main/demo.PNG" width=100% />
 
+# Cliquez et ouvrez-le.
+``` php
+class CreateContactsTable extends Migration
+{
+    public function up()
+    {
+       
+    }
+    public function down()
+    {
+        Schema::dropIfExists('contacts');
+    }
+}
+```
+# Ensuite creer vos champs a l'interieur de la fonction up()
+``` php
+class CreateContactsTable extends Migration
+{
+    public function up()
+    {
+     Schema::create('contacts', function (Blueprint $table) {
+            $table->id();
+            $table->chaîne('nom');
+            $table->chaîne('adresse');
+            $table->string('mobile');
+            $table->timestamps();
+        });
+       
+    }
+    public function down()
+    {
+        Schema::dropIfExists('contacts');
+    }
+}
+```
+
+# C' est maintenant super il ne vous reste qu' a envoyer votre table dans la base de donnée
+```
+php artisan migrate
+
+```
+
+
+
+
