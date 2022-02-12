@@ -20,7 +20,7 @@ commande permettant de lancer un serveur laravel
 php artisan serve
 
 ```
-<img src="https://d33wubrfki0l68.cloudfront.net/805dc6ba89821cc9110628bf0aec04c0a622515e/2849e/assets/laravel_auth_breeze.7b6c3f3a.png" width=100% />
+<img src="https://github.com/DreamTeam-P4/Documentation_Laravel/blob/main/acceuil.PNG" width=100% />
 
 # Créer une migration
 ```
