@@ -70,6 +70,66 @@ class CreateContactsTable extends Migration
 php artisan migrate
 
 ```
+Vérifier si la base de donnée a bien été uploadé
+<img src="migrate"  width=100%/>
+
+😍😍😍😍 C ' est top ca . J 'espere que vous etes toujour en forme🤷‍♀️
+
+# Creer votre controlleur 
+```
+php artisan  make:controller EpsilonController --ressource
+
+```
+
+<img src="controller"  />
+
+# Créer un modèle
+Un modele a pour role de permettre l obtension des donnees de la base de donnée
+```
+php artisan make:model simplon
+```
+<img src="model"  />
+
+```php
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Epsilon extends Model
+{
+    use HasFactory;
+}
+
+
+```
+
+Ensuite ajouter le champs de vos tables;
+```php
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Epsilon extends Model
+{
+    protected $table = 'simplonp4';
+    protected $primaryKey = 'id';
+    protected $fillable = ['name', 'address', 'mobile'];
+}
+
+
+
+```
+
+# Créer des vues
+
+
 
 
 
