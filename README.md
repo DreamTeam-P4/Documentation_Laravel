@@ -3,7 +3,7 @@
 composer create-project  laravel/laravel Crud-Epsilon-App
 ```
 Apres avoir creer le projet creer une base de donnée sur phpmyadmin
-<img src="https://cours.ebsi.umontreal.ca/sci6306/res/phpmyadmin_bd.jpg" width=100% />
+<img src="https://github.com/DreamTeam-P4/Documentation_Laravel/blob/main/db.PNG" width=100% />
 # Modifier le fichier .env
 Modifier le fichier .env pour le nom de la base de données
 ```.env
@@ -27,4 +27,5 @@ php artisan serve
 php artisan make:migration tableSimplonP4
 
 ```
+<img src="https://github.com/DreamTeam-P4/Documentation_Laravel/blob/main/demo.PNG" width=100% />
 
