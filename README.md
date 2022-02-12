@@ -81,14 +81,13 @@ php artisan  make:controller EpsilonController --ressource
 
 ```
 
-<img src="controller"  />
+<img src="https://github.com/DreamTeam-P4/Documentation_Laravel/blob/main/controller.PNG"  width=100%/>
 
 # Créer un modèle
 Un modele a pour role de permettre l obtension des donnees de la base de donnée
 ```
 php artisan make:model simplon
 ```
-<img src="model"  />
 
 ```php
 
